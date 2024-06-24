@@ -1,0 +1,432 @@
+/* Adjusting styles to move "Join Us" button and position arrows correctly */
+
+/* General body and html styles */
+
+
+/* Navbar styles */
+.navbar{
+  background-color: #ebeeff !important ;
+  width: 100.75%;
+}
+.navbar .nav-link{
+  text-decoration: none ;
+  color: rgb(58, 78, 253) ;
+  font-size: 18px;
+  margin-left: 15px;
+  padding: 0 !important;
+}
+.navbar .nav-link:hover{
+  border-bottom: 2px solid #04107d;
+  color: #04107d;
+}
+.navbar .setting-icon{
+  margin-left: 20px;
+  font-size: 35px;
+  color: rgb(24, 96, 24);
+}
+
+/* Sidebar styles */
+.sidebar{
+  position: relative;
+}
+.sidebar .nav-link{
+  font-size: 20px;
+  margin: 10px 0 0 20px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: black !important;
+}
+.sidebar .nav-link:hover{
+  border-radius: 10px;
+  background-color: rgb(89, 89, 210);
+  color: white !important;
+}
+.sidebar .active{
+  border-radius: 10px;
+  background-color: rgb(89, 89, 210);
+  color: white !important;
+}
+.sidebar .bottom-sidebar{
+  position: absolute;
+  bottom: 50px;
+}
+
+/* Background overlay style */
+.home{
+max-width: 1465px;
+}
+
+/* Main content margin adjustment */
+.main-content {
+background: url('E:\html\New folder (6)\Final-Project\public\assets\pic1.jpg') no-repeat center center fixed;
+background-size: calc(100%);
+width: 100%;
+margin-top: 0px; 
+margin-bottom: 20px;
+text-align: center;
+}
+
+/* Hero section styles */
+.hero,
+.hero h2{
+margin-left: 10px;
+color: #000000;
+padding: 4rem 0rem 1rem;
+text-align: left;
+}
+.hero p{
+  margin: 25px;
+}
+
+/* Search container styles */
+.search-container {
+display: flex;
+justify-content: flex-start; /* Align search to the left */
+padding: 1rem 2rem;
+}
+
+.search-input-container {
+position: relative;
+width: 100%;
+max-width: 600px; /* Adjust the width as needed */
+}
+
+.search-input {
+width: 100%;
+padding: 0.75rem;
+font-size: 1.25rem;
+border: 2px solid #ddd;
+border-radius: 4px;
+}
+
+.search-icon {
+position: absolute;
+top: 50%;
+right: 20px;
+transform: translateY(-50%);
+font-size: 1.25rem;
+}
+
+/* Popular categories section styles */
+.popular-categories {
+padding: 2rem;
+margin: 5rem auto;
+height: 500px;
+max-height: 700px;
+margin-top: 10px;
+margin-bottom: 10px;
+background: #fff;
+}
+
+.popular-categories h2 {
+margin-bottom: 1.5rem;
+}
+
+/* Job posts section styles */
+.job-posts {
+height: 500px;
+max-height:700px ;
+padding: 2rem;
+margin: 2px auto;
+background: #f9f9f9;
+}
+
+.job-posts h2 {
+text-align: center;
+margin-bottom: 2rem;
+color: #333;
+}
+
+/* Job card styles */
+.job-card{
+height:250px ;
+padding: 2rem;
+width: 150px;
+margin-bottom: 2px;
+}
+.jobs-card{
+height: 350px;
+position: relative;
+z-index: 0;
+}
+.jobs-card-wrapper,
+.job-card-wrapper,
+.freelancer-card-wrapper,
+.privileges-container {
+display: flex !important;
+justify-content: center;
+align-items: center;
+padding: 0 2rem;
+height: 350px;
+margin: 5px;
+position: relative;
+}
+.jobs-card,
+.job-card,
+.freelancer-card,
+.privilege-card {
+width: 100%;
+max-width: 300px;
+text-align: center;
+padding: 1rem;
+border-radius: 8px;
+background: linear-gradient(to top, #ffffff, #d4e0ff);
+box-shadow: 0 4px 8px rgb(244, 170, 255);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+cursor: pointer;
+position: relative;
+margin: 0 1rem;
+z-index: 1;
+}
+.jobs-card:hover,
+.job-card:hover,
+.freelancer-card:hover,
+.privilege-card:hover {
+transform: translateY(-10px);
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+z-index: 10;
+}
+
+.job-icon,
+.freelancer-profile-pic,
+.privilege-icon {
+margin-bottom: 1rem;
+}
+
+.job-info{
+min-height: 100px;
+margin-bottom: 10px;
+}
+.job-info h3,
+.freelancer-info h3,
+.privilege-card h3 {
+font-size: 1.5rem;
+margin-bottom: 0.5rem;
+}
+
+.job-info p,
+.freelancer-info p,
+.privilege-card p {
+
+font-size: 1rem;
+color: #666;
+}
+
+/* Freelancer section styles */
+.freelancers {
+margin-top: 2rem;
+position: relative;
+z-index: 1;
+background-color: rgba(255, 255, 255, 0.9);
+padding: 2rem;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+width: 100%;
+height: 600px;
+}
+
+.freelancers h2,
+.privileges-section h2 {
+text-align: center;
+margin-bottom: 2rem;
+color: #333;
+animation: slideInDown 1s ease-in-out;
+}
+
+.freelancer-card-wrapper {
+display: flex !important;
+justify-content: center;
+align-items: center;
+padding: 0 0.5rem;
+}
+
+.freelancer-card {
+width: 100%;
+max-width: 300px;
+min-height: 400px;
+text-align: center;
+padding: 1rem;
+border-radius: 8px;
+background: linear-gradient(to top, #ffffff, #d4e0ff);
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+overflow: hidden;
+display: flex;
+align-items: center;
+position: relative;
+margin: 0 1rem;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+cursor: pointer;
+box-sizing: border-box;
+}
+
+.freelancer-card:hover {
+transform: translateY(-10px);
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.freelancer-profile-section {
+background-color: #64a8c3;
+width: 100%;
+text-align: center;
+padding: 1rem 0;
+border-radius: 5px;
+}
+
+.freelancer-profile-pic {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+margin-bottom: 1rem; /* Adjust margin as needed */
+margin-left: 5rem;
+}
+
+.freelancer-profile-text {
+margin-top: 0.5rem;
+color: #fff;
+font-weight: bold;
+}
+
+.freelancer-info {
+text-align: center;
+padding: 1rem;
+}
+
+.freelancer-rating {
+display: flex;
+justify-content: center;
+margin: 0.5rem 0;
+}
+
+.freelancer-actions {
+display: flex;
+justify-content: space-between;
+width: 100%;
+padding: 1rem;
+position: relative;
+}
+.show-more-btn {
+background-color: #64a8c3;
+color: #fff;
+border: none;
+padding: 0.5rem 1rem;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.show-more-btn:hover {
+background-color: #06577f;
+transform: scale(1.1);
+}
+.freelancer-fav-btn {
+background: none;
+border: none;
+cursor: pointer;
+font-size: 2rem;
+position: absolute;
+right: 10px;
+top: 10px;
+}
+
+
+/* Custom arrow styles for slick carousel */  
+.slick-dots {
+  display: block !important;
+  /* Add more specific styles as needed */
+}
+
+.custom-next-arrow{
+position: absolute;
+right: 0;
+top: 50%;
+transform: translateY(-50%);
+}
+.custom-prev-arrow{
+position: absolute;
+left: 0;
+top: 50%;
+transform: translateY(-50%);
+}
+.custom-arrow,
+.slick-prev,
+.slick-next {
+width: 30px;
+height: 30px;
+background-color: #333;
+color: #fff;
+border-radius: 50%;
+display: flex ;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+z-index: 1;
+transition: background-color 0.3s ease;
+}
+
+.custom-arrow:hover,
+.slick-prev:hover,
+.slick-next:hover {
+background-color: #111010;
+}
+
+.custom-arrow::before,
+.slick-prev::before,
+.slick-next::before {
+content: '';
+}
+
+/* Privileges section styles */
+.privileges-section {
+background-color: #f8f9fa;
+padding: 4rem 4rem;
+text-align: center;
+}
+
+.privileges-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 0.5rem;
+}
+
+.privilege-icon {
+font-size: 3rem;
+margin-bottom: 1rem;
+color: #571563;
+}
+
+.privilege-card p {
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+padding: 1rem;
+background: linear-gradient(to top, #ffffff, #d4e0ff);
+opacity: 0;
+transform: translateY(100%);
+transition: transform 1s ease, opacity 1s ease;
+}
+
+.privilege-card:hover p {
+transform: translateY(0);
+opacity: 1;
+}
+
+/* Join us button styles */
+.join-us-btn {
+margin-bottom: 3rem;
+margin-top: 1rem; /* Adjust margin to be closer to the privileges section */
+padding: 1rem 2rem;
+font-size: 1.25rem;
+color: #ffffff;
+background-color: #571563; /* Adjust background color */
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.join-us-btn:hover {
+background-color: #8b008b; /* Darker shade for hover effect */
+transform: scale(1.1);
+}

@@ -1,0 +1,42 @@
+.reg{
+    text-align: center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.reg img{
+    position: absolute;
+    top: 10px;
+    left: 35%;
+}
+   
+.done{
+    position: absolute;
+    top: 280px;
+    left: 37%;
+}
+.done div{
+    padding: 50px 20px;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.35);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+}
+
+.done .check{
+    font-weight: 500;
+}
+
+.done .recieve{
+    margin: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+}
+.done .recieve:hover{
+    text-decoration: underline;
+}

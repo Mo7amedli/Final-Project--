@@ -1,0 +1,351 @@
+/*Form.css*/
+.contract{
+  min-height: 87vh;
+}
+
+.form-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0px 8px 20px rgba(66, 45, 129, 0.3);
+  animation: slideIn 1s ease;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 26px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: inline-block;
+  color: #555;
+  font-size: 16px;
+}
+
+.form-group input[type="number"],
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group input[type="time"],
+.form-group textarea {
+  width: 100%;
+  padding: 5px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #333;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+.form-group input[type="number"],
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group input[type="time"],
+.form-group textarea{
+  transition: 0.3s ease-in-out;
+}
+.form-group input[type="number"]:focus,
+.form-group input[type="text"]:focus,
+.form-group input[type="date"]:focus,
+.form-group input[type="time"]:focus,
+.form-group textarea:focus {
+  border-color: #8f69e8;
+  transform: scale(1.03);
+}
+
+.sb-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #8f69e8;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.sb-btn:hover {
+  background-color: #3a2e5e;
+  transform: translateY(-3px);
+}
+
+.date-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date-input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.date-input:last-child {
+  margin-right: 0;
+}
+
+.form-group textarea {
+  height: 100px;
+}
+
+/*ContractDetails.css*/
+
+.contract-details {
+  max-width: 800px;
+  min-height: 400px;
+  margin:  auto;
+  padding: 50px 30px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 10px #422d81;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.contract-details h2{
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 28px;
+  animation: slideInDown 1s ease-in-out;
+}
+
+@keyframes slideInDown {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.detail{
+  margin: 10px;
+}
+.form-group label{
+  font-size: 18px;
+  margin-right: 10px;
+}
+.detail label{
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.detail span{
+  font-size: 18px;
+}
+.form-groups label{
+  margin: 6px 10px 0 10px;
+  font-weight: 500;
+}
+.form-groups input{
+  height: 40px;
+  margin: 15px 15px 0 0;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #4d5bdb;
+  transition: 0.3s ease-out;
+}
+.form-groups input:focus{
+  transform: scale(1.05);
+}
+.form-groups .confirm{
+  background-color: rgb(78, 101, 232);
+  color: #fff;
+  display: inline-block;
+  padding: 8px 8px;
+  border-radius: 10px;
+  transition: 0.3s ease-out;
+}
+.form-groups .confirm:active{
+  background-color: rgb(66, 66, 176);
+  transform: scale(1.08 );
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.contract-details p {
+  height: 50px;
+  margin: 10px 0;
+  font-size: 18px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/*all contracts*/
+.contract-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 40px;
+  min-height: 90vh;
+}
+
+.contract-page-header {
+  margin-bottom: 10px;
+}
+
+.contract-page-header h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+}
+
+.contract-details-container {
+  width: 80%;
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  position: relative;
+  transition: 0.4s;
+}
+.contract-details-container:hover{
+  transform: scale(1.02);
+}
+
+.job-description-container,
+.date-container,
+.name-container,
+.terms-container {
+  margin-bottom: 10px;
+}
+
+.price-container{
+  display: flex;
+  justify-content: center;
+}
+.price-container h3{
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+  color: #333;
+}
+.price-container p {
+  font-size: 18px;
+  margin-top: 3px;
+  color: #333;
+}
+
+.job-description-container h3,
+.date-container h3,
+.name-container h3,
+.terms-container h3 {
+  font-size: 20px;
+  margin-right: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.date-container,
+.name-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.start-date-container,
+.client-name-container{
+  display: flex;
+  margin-right: 10px;
+}
+.end-date-container,
+.freelancer-name-container{
+  display: flex;
+}
+
+.terms-container p,
+.job-description-container p {
+  font-size: 16px;
+  margin-left: 20px;
+  color: #555;
+}
+.contract-actions{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.contract-actions .update{
+  background-color: #0d6efd;
+  color: #fff;
+  font-size: 18px;
+  padding: 7px 10px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.contract-actions .update:hover{
+  background-color: #1f65cd;
+  transform: scale(1.1);
+}
+.contract-actions .delete{
+  background-color: #dc3545;
+  color: #fff;
+  font-size: 18px;
+  padding: 7px 10px;
+  border-radius: 10px;
+  margin-left: 7px;
+  transition: 0.3s;
+}
+.contract-actions .delete:hover{
+  background-color: #c82333;
+  transform: scale(1.1);
+}
+.no-contracts{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.no-contracts h2{
+  max-width: 500px;
+  color: crimson;
+  font-weight: 600;
+  animation: slideInRight 1s ease-in-out;
+}

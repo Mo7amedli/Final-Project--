@@ -1,0 +1,146 @@
+.sec{
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    min-height: 90vh;
+}
+
+.sec p{ 
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    margin: 20px 0;
+}
+
+.sec span{
+    font-size: 12px;
+}
+
+.sec a{
+    color: #333;
+    font-size: 13px;
+    text-decoration: none;
+    margin: 10px 0 10px;
+}
+
+.sec button{
+    background-color: #512da8;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: ease-in 0.2s;
+}
+
+.sec button{
+    transform: scale(1.05);
+}
+
+.sec form{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    height: 100%;
+}
+form .erorr{
+    color: red;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+.sec input{
+    background-color: #eee;
+    border: none;
+    margin: 2px 0;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+}
+
+.sign-up{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+}
+
+.sign-up .steps{
+    width: 100%;
+}
+.sign-up .steps button{
+    margin-left: 10px;
+}
+
+.sign-up .progressbar{
+    width: 300px;
+    height: 5px;
+    border-radius: 50px;
+    margin-bottom: 5px;
+    background-color: rgb(224, 105, 129);
+}
+.sign-up .progressbar div{
+    width: 25%;
+    height: 100%;
+    border-radius: 50px;border-radius: 50px; 
+    background-color: rgb(98, 0, 255);
+}
+.sign-up .steps p{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.sign-up .steps .error{
+    display: block;
+    color: crimson;
+}
+.social-icons{
+    margin: 10px 0;
+}
+
+.social-icons a{
+    border: 1px solid #ccc;
+    border-radius: 20%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3px;
+    width: 40px;
+    height: 40px;
+}
+
+.toggle-sec{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 0 150px 100px 0;
+}
+
+.toggle{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to left, #5c6bc0, #512da8);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+    text-align: center;
+}

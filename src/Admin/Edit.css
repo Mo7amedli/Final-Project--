@@ -1,0 +1,134 @@
+/*Category List css*/
+.categories-list-container {
+  max-width: 750px;
+  min-height: 90vh;
+  margin: 0 auto; 
+}
+
+.categories-list-heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.categories-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.categories-table th,
+.categories-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.categories-table th {
+  background-color: #f2f2f2;
+}
+
+/*Skills List Css*/
+.skills-list-container {
+  max-width: 750px;
+  min-height: 90vh;
+  margin: 0 auto;
+   
+}
+
+.skills-list-heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.skills-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.skills-table th,
+.skills-table td {
+  border: 1px solid #ddd;
+  padding: 5px;
+  text-align: left;
+}
+
+.skills-table th {
+  background-color: #f2f2f2;
+}
+
+/*Language List Css*/
+.languages-list-container {
+  max-width: 780px;
+  min-height: 90vh;
+  margin: 0 auto;
+   
+}
+
+.languages-list-heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.languages-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.languages-table th,
+.languages-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.languages-table th {
+  background-color: #f2f2f2;
+}
+
+/*Buttons css*/
+.edit-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  margin-right: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.save-button,
+.cancel-button, 
+.return-button{
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  margin-right: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.delete-button{
+  background-color: #e23939;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  margin-right: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;}
+
+.edit-button:hover,
+.save-button:hover,
+.cancel-button:hover,
+.return-button:hover
+ {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+.delete-button:hover{
+  background-color: rgb(118, 46, 46);
+  transform: scale(1.1);
+}

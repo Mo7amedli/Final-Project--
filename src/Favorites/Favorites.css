@@ -1,0 +1,198 @@
+.myfavjob{
+    display: flex;
+    justify-content: center;
+    min-height: 90vh;
+    padding-top: 10px;
+    max-width: 100%;
+}
+.fav-card{
+    width: calc(25% - 30px); /* 4 cards in a row */
+    margin: 15px;
+    background-color: #fff;
+    box-shadow: rgba(60, 64, 67,  0.3) 0px 1px 2px 0px;
+    border-radius: 8px;
+    transition: all .2s ease-in-out;
+
+}
+.job-favs-container {
+    min-width: 800px;
+}
+.job-fav-container{
+    min-height: 90;
+    margin: 10px 0 15px 0;
+    padding: 20px;
+    box-shadow: rgba(23, 23, 24, 0.05) 0px 0px 0px 1px, rgb(93, 148, 232) 0px 0px 0px 1px inset;
+    background-color: rgba(255, 245, 245, 0.4);
+    animation: slideInRight 0.5s ease-in-out;
+}
+@keyframes slideInRight {
+    from {
+      transform: translateX(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+
+.job-fav-s{
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 3px solid #9a5fe3;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+.job-fav-s-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.job-fav-s-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+  
+.job-fav-s-detail {
+    margin-bottom: 10px;
+}
+  
+.job-fav-s-label {
+    font-weight: bold;
+}
+  
+.job-fav-s-buttons {
+  display: flex;
+  max-width: 110px;
+  margin-left: 20px;
+}
+.card-body{
+    display: flex;
+    justify-content: space-between;
+}
+.details-s-button{
+    padding: 7px 10px 0 10px;
+    height: 40px;
+    text-decoration: none;
+    margin: 5px 10px 0 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    transition: 0.2s;
+}
+  
+.hire-s-button {
+    padding: 0 16px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    transition: 0.2s;
+}
+  
+.fav-s-button{         /*also in FavFreelancers*/
+    width: 50px;
+    height: 50px;
+    transition: 0.2s;
+}
+.fav-s-button:hover{
+    transform: scale(1.1);
+    width: 50px;
+    height: 50px;
+}
+  
+.no-jobs{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .no-jobs h1{
+    max-width: 500px;
+    color: crimson;
+    font-weight: 500;
+    margin-top: 20px;
+    animation: slideInRight 1s ease-in-out;
+  }
+  
+  @keyframes slideInRight {
+    from {
+      transform: translateX(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+/*new fav free*/
+.favcard{
+    min-height: 87vh;
+  }
+  .fav-free-card {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color:  rgba(255, 245, 245, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 30px;
+    position: relative;
+  }
+  
+  .fav-free-card .profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .fav-free-card .profile-picture img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .fav-free-card .name {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+  
+  .fav-free-card .position {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    }
+  .fav-free-card .hourly-rate{
+    position: absolute;
+    top: 54px;
+    right: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .free-fav-s-buttons {
+    display: flex;
+    max-width: 125px;
+    margin-left: 20px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    gap: 5px;
+  }
+
+  .fav-s-button{
+    width: 50px;
+    height: 50px;
+    transition: 0.2s;
+  }
+  .fav-s-button:hover{
+    transform: scale(1.1);
+    width: 50px;
+    height: 50px;
+  }

@@ -1,0 +1,239 @@
+/* Account reread */
+.setting{
+    display: flex;
+    margin: 20px 20px 0 50px;
+    flex-wrap: wrap;
+    gap: 170px;
+}
+.setting .but-setting{
+    height: 0;
+}
+.setting button{
+    display: block;
+    border: none;
+    background-color: transparent;
+    margin-left: 20px;
+    padding: 5px;
+}
+.account-content{
+    width: 650px;
+    padding-top: 8px;
+}
+
+/* Confirm Password */
+.security-pass{
+    background-color: transparent;
+    margin-top: 20px;
+    padding: 20px 20px 50px 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.security-pass .change-pass{
+    padding: 20px 0 0 0 ;
+    position: relative;
+}
+.security-pass .eidt-pass{
+    position: absolute;
+    right: 0;
+    top: 25px;
+    color: darkgreen;
+    border-radius: 50%;
+}
+.security-pass .check-pass{
+    position: absolute;
+    top: 68px;
+}
+.security-pass .check-info{
+    position: absolute;
+    left: 30px;
+}
+.security-pass .eidt-pass{
+    color: rgb(4, 136, 4);
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.security-pass .eidt-pass:hover{
+    transform: scale(1.5);
+}
+/* Account user */
+.bg-acc{
+    min-height: 75vh;
+    min-width: 50%;
+}
+.Account{
+    position: relative;
+    background-color: transparent;
+    
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: #625ee2 0px 1px 3px 0px, rgba(210, 96, 20, 0.15) 0px 0px 0px 1px;
+}
+
+.Account .edit-user{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: rgb(9, 149, 9);
+    cursor: pointer;
+}
+.Acc-info{
+    margin-top: 30px;
+}
+
+.Account h4{
+    padding: 0 0 25px 25px;
+}
+.Account label{
+    font-size: 14px;
+    font-weight: 450;
+    color: rgb(7, 106, 21);
+    display: block;
+}
+.Account p{
+    font-weight: 550;
+    margin-left: 10px;
+}
+.Account a{
+    font-weight: 550;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.Account span{
+    font-weight: 600;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: #EEF0E5;
+    padding: 2px 5px;
+    border-radius: 30px;
+    display: inline;
+}
+
+/* protfolio */
+.portfolio{
+    max-width: 80%;
+    margin-top: 50px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+}
+.portfolio .add{
+    text-align: center;
+}
+
+.portfolio .cards{
+    padding: 30px 10px 20px 10px;
+    border-radius: 20px;
+   
+}
+/* freelancer information */
+.AccFree .rate{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;    
+    max-height: 300px;
+    position: relative;
+}
+.AccFree .rate .edit-img{
+    position: absolute;
+    top: 90px;
+    right: 115px;
+    font-size: 20px;
+    color: rgb(25, 137, 25);
+    transition: 0.3s;
+}
+.AccFree .rate .edit-img:hover{
+    transform: scale(1.5);
+}
+.AccFree .left-info span{
+    transition: 0.3s;
+}
+.AccFree .left-info span:hover{
+    font-size: 18px;
+    cursor: default;
+}
+.AccFree .FreeInfo{
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px 0 10px 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    position: relative;
+}
+.AccFree .FreeInfo p{
+    margin-left: 40px;
+    font-weight: 600;
+    transition: 0.3s;
+    display: inline-block;
+}
+.AccFree .FreeInfo p:hover,
+.AccFree .FreeInfo a:hover{
+    font-size: 18px;
+    cursor: default;
+}
+.AccFree .FreeInfo a{
+    margin-left: 40px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.AccFree .FreeInfo .edit-info{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 22px;
+    color: rgb(4, 136, 4);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.AccFree .FreeInfo .edit-info:hover{
+    transform: scale(1.5);
+}
+.AccFree .Skill-lang{
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px 0 10px 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    position: relative;
+}
+.AccFree .Skill-lang .languages{
+    margin-left: 10px;
+    margin-bottom: 7px;
+    background-color: #1028581f;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 600;
+    display: inline-block;
+    flex-wrap: wrap;
+}
+.AccFree .Skill-lang .languages:hover{
+    background-color: #061f529c;
+    color: #fff;
+    cursor: default;
+}
+.AccFree .Skill-lang .skills{
+    margin-left: 10px;
+    margin-bottom: 7px;
+    background-color: #1028581f;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 600;
+    display: inline-block;
+    flex-wrap: wrap;
+}
+.AccFree .Skill-lang .skills:hover{
+    background-color: #061f529c;
+    color: #fff;
+    cursor: default;
+}
+.AccFree .Skill-lang .edit-skill-lang{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 22px;
+    color: rgb(25, 137, 25);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.AccFree .Skill-lang .edit-skill-lang:hover{
+    transform: scale(1.5);
+}
